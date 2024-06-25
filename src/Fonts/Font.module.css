@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "monreate";
+  src: local("PP Neue Montreal"),
+    url("./PPNeueMontreal-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Eiko";
+  src: local("Eiko"),
+    url("./PPEiko-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Eiko-Thin";
+  src: local("Eiko"),
+    url("./PPEiko-Thin.ttf") format("truetype");
+}
+
+.montreal {
+  font-family: "monreate";
+}
+
+.Eiko {
+  font-family: "Eiko";
+}
+.EikoThin{
+  font-family: 'Eiko-Thin';
+  -webkit-text-stroke: 2.5px white;
+}
+.EikoThinProject{
+  font-family: 'Eiko-Thin';
+  -webkit-text-stroke: 1.5px rgb(0, 0, 0);
+}
+.EikoThinEmail{
+  font-family: 'Eiko-Thin';
+}
